@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.7.0-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_NuCx49vLEemCl-7-fWCBVQ" name="Blank Package">
+  <eAnnotations xmi:id="_NuCx5NvLEemCl-7-fWCBVQ" source="uml2.diagrams" references="_NuCx5dvLEemCl-7-fWCBVQ">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_NuCx5dvLEemCl-7-fWCBVQ" type="Freeform" name="Main">
+      <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_aDd2INvLEemCl-7-fWCBVQ" element="_ZF7P0NvLEemCl-7-fWCBVQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_aDnAENvLEemCl-7-fWCBVQ" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_aDnAEdvLEemCl-7-fWCBVQ" width="1455" height="2381"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_aDnAEtvLEemCl-7-fWCBVQ" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_aDnAE9vLEemCl-7-fWCBVQ" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_aDnAFNvLEemCl-7-fWCBVQ" type="Parent"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aDd2IdvLEemCl-7-fWCBVQ" x="4180" y="4365"/>
+      </children>
+      <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_cLggsNvLEemCl-7-fWCBVQ" element="_bRZo4NvLEemCl-7-fWCBVQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cLggstvLEemCl-7-fWCBVQ" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_cLggs9vLEemCl-7-fWCBVQ" width="1455" height="2381"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_cLggtNvLEemCl-7-fWCBVQ" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_cLggtdvLEemCl-7-fWCBVQ" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_cLggttvLEemCl-7-fWCBVQ" type="Parent"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cLggsdvLEemCl-7-fWCBVQ" x="18612" y="4752"/>
+      </children>
+    </contents>
+  </eAnnotations>
+  <eAnnotations xmi:id="_NuCx5tvLEemCl-7-fWCBVQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_NuCx59vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStateMachine2" value="1"/>
+    <details xmi:id="_NuCx6NvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBSpecificInstanceType2" value="1"/>
+    <details xmi:id="_NuCx6dvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStateMachine1" value="1"/>
+    <details xmi:id="_NuCx6tvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBSpecificInstanceType1" value="1"/>
+    <details xmi:id="_NuCx69vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
+    <details xmi:id="_NuCx7NvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBTemplate" value="1"/>
+    <details xmi:id="_NuCx7dvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBEvent2" value="1"/>
+    <details xmi:id="_NuCx7tvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBEvent1" value="1"/>
+    <details xmi:id="_NuCx79vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBRelationship3" value="1"/>
+    <details xmi:id="_NuCx8NvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+    <details xmi:id="_NuCx8dvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+    <details xmi:id="_NuCx8tvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+    <details xmi:id="_NuCx89vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBInformationFlow" value="1"/>
+    <details xmi:id="_NuCx9NvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBCommunicationDiagram" value="1"/>
+    <details xmi:id="_NuCx9dvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+    <details xmi:id="_NuCx9tvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBComponentTemplateParameter" value="1"/>
+    <details xmi:id="_NuCx99vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
+    <details xmi:id="_NuCx-NvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBCompositeStructure1" value="1"/>
+    <details xmi:id="_NuCx-dvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
+    <details xmi:id="_NuCx-tvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
+    <details xmi:id="_NuCx-9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBCompositeStructure2" value="1"/>
+    <details xmi:id="_NuCx_NvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+    <details xmi:id="_NuCx_dvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBActivity4" value="1"/>
+    <details xmi:id="_NuCx_tvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
+    <details xmi:id="_NuCx_9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBInteraction" value="1"/>
+    <details xmi:id="_NuCyANvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+    <details xmi:id="_NuCyAdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+    <details xmi:id="_NuCyAtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+    <details xmi:id="_NuCyA9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+    <details xmi:id="_NuCyBNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStateChartDiagram" value="1"/>
+    <details xmi:id="_NuCyBdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStereotypedComponent" value="1"/>
+    <details xmi:id="_NuCyBtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+    <details xmi:id="_NuCyB9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+    <details xmi:id="_NuCyCNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStereotypedArtifact" value="1"/>
+    <details xmi:id="_NuCyCdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+    <details xmi:id="_NuCyCtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+    <details xmi:id="_NuCyC9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+    <details xmi:id="_NuCyDNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+    <details xmi:id="_NuCyDdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+    <details xmi:id="_NuCyDtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
+    <details xmi:id="_NuCyD9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+    <details xmi:id="_NuCyENvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBArtifact" value="1"/>
+    <details xmi:id="_NuCyEdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+    <details xmi:id="_NuCyEtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStructureDiagram" value="1"/>
+    <details xmi:id="_NuCyE9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+    <details xmi:id="_NuCyFNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
+    <details xmi:id="_NuCyFdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBDeployment1" value="1"/>
+    <details xmi:id="_NuCyFtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBDeployment2" value="1"/>
+    <details xmi:id="_NuCyF9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+    <details xmi:id="_NuCyGNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBAbstractionRelation" value="1"/>
+    <details xmi:id="_NuCyGdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBElementImport2" value="1"/>
+    <details xmi:id="_NuCyGtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBUsage" value="1"/>
+    <details xmi:id="_NuCyG9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+    <details xmi:id="_NuCyHNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBInstance" value="1"/>
+    <details xmi:id="_NuCyHdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
+    <details xmi:id="_NuCyHtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+    <details xmi:id="_NuCyH9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBElementImport1" value="1"/>
+    <details xmi:id="_NuCyINvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBProfile" value="1"/>
+    <details xmi:id="_NuCyIdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBTypes3" value="1"/>
+    <details xmi:id="_NuCyItvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
+    <details xmi:id="_NuCyI9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBObjectDiagram" value="1"/>
+    <details xmi:id="_NuCyJNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBInteractionOverviewDiagram" value="1"/>
+    <details xmi:id="_NuCyJdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBProfileApplication" value="1"/>
+    <details xmi:id="_NuCyJtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+    <details xmi:id="_NuCyJ9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBPrimitiveTypeTemplateParameter" value="1"/>
+    <details xmi:id="_NuCyKNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBTiming" value="1"/>
+    <details xmi:id="_NuCyKdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+    <details xmi:id="_NuCyKtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBFunctionTemplateParameter" value="1"/>
+    <details xmi:id="_NuCyK9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+    <details xmi:id="_NuCyLNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBSignal" value="1"/>
+    <details xmi:id="_NuCyLdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBStereotypedDeployment1" value="1"/>
+    <details xmi:id="_NuCyLtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBTimingDiagram" value="1"/>
+    <details xmi:id="_NuCyL9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBConstraint" value="1"/>
+    <details xmi:id="_NuCyMNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+    <details xmi:id="_NuCyMdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBComment3" value="1"/>
+    <details xmi:id="_NuCyMtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+    <details xmi:id="_NuCyM9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBInteractionOverview" value="1"/>
+    <details xmi:id="_NuCyNNvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+    <details xmi:id="_NuCyNdvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+    <details xmi:id="_NuCyNtvLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    <details xmi:id="_NuCyN9vLEemCl-7-fWCBVQ" key="com.ibm.xtools.activities.umlBBDeploymentSpecification" value="1"/>
+  </eAnnotations>
+  <packageImport xmi:id="_NuCyONvLEemCl-7-fWCBVQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZF7P0NvLEemCl-7-fWCBVQ" name="Cliente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bRZo4NvLEemCl-7-fWCBVQ" name="Gerente"/>
+  <profileApplication xmi:id="_NuCyOdvLEemCl-7-fWCBVQ">
+    <eAnnotations xmi:id="_NuCyOtvLEemCl-7-fWCBVQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NuCyO9vLEemCl-7-fWCBVQ">
+    <eAnnotations xmi:id="_NuCyPNvLEemCl-7-fWCBVQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NuCyPdvLEemCl-7-fWCBVQ">
+    <eAnnotations xmi:id="_NuCyPtvLEemCl-7-fWCBVQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>
