@@ -9,12 +9,13 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #e0d5a4;
 }
 
 /* Style the header */
 .header {
   grid-area: header;
-  background-color: white;
+  background-color: #ddd;
   padding-top: 50px;
   text-align: center;
   font-size: 35px;
@@ -44,6 +45,10 @@ body {
   color: white;
 }
 
+.topnav a.logo {
+  font-size: 18px;
+  float: left;
+}
 
 /* The grid container */
 .grid-container {
@@ -59,7 +64,7 @@ body {
 .middle,
 .right {
   padding-top: 35px;
-  height: 100px;
+  height: 125px;
   text-align: center;
   font-size: 20px;
 }
@@ -163,6 +168,45 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.slidecontainer {
+  width: 100%;
+}
+
+.slider-range {
+  -webkit-appearance: none;
+  width: 50%;
+  background: #d3d3d3;
+  height: 15px;
+  border-radius: 5px;  
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider-range:hover {
+  opacity: 1;
+}
+
+/* Seletor */
+.slider-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider-range::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .grid-container  {
@@ -179,6 +223,7 @@ input:checked + .slider:before {
 <body>
 
 <div class="topnav">
+    <a class="logo">QuartoAndar</a>
     <a class="active" href="#login">Login</a>
     <a class="active" href="#home">Home</a>
 </div>
@@ -186,13 +231,22 @@ input:checked + .slider:before {
 <div class="grid-container">
   <div class="header">
     <h2>Cidade</h2>
+    <br>
+    <form action="/action_page.php" style="margin-bottom:15px;">
+      <input type="text" style="height: 30px; font-size:15px;" name="Cidade" placeholder="ex: São Paulo"><br>
+    </form>
   </div>
   
-  <div class="left" style="background-color:#aaa;">Bairro</div>
+  <div class="left" style="background-color:#aaa;">
+    Bairro
+    <form action="/action_page.php" style="margin-bottom:15px;">
+      <input type="text" style="width: 150px; height: 30px; font-size:15px;" name="Bairro" placeholder="ex: Lapa"><br>
+    </form>
+  </div>
   <div class="middle" style="background-color:#bbb;">
     Preço<br>
     <div class="slidecontainer">
-      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      <input type="range" min="50000" max="2000000" value="R$1000000" class="slider-range" id="myRange">
       <span id="demo"></span>
     </div>
     
@@ -206,6 +260,16 @@ input:checked + .slider:before {
     Comprar
   </div>
   
+  <script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = "R$" + this.value;
+    }
+  </script>
+
   <div class="footer">
         <button class="button success">Vai!</button>
   </div>
