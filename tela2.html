@@ -266,7 +266,17 @@ input:checked + .slider:before {
     output.innerHTML = slider.value;
     
     slider.oninput = function() {
-      output.innerHTML = "R$" + this.value;
+      var price;
+      if (this.value > 1000)
+      {
+        var price = this.value.substring(0, this.value.length - 3) + "." + this.value.substring(this.value.length - 3, this.value.length);
+      }
+      if (this.value > 1000000)
+      {
+        price = price.substring(0, price.length - 7) + "." + price.substring(price.length - 7, price.length);
+      }
+        
+      output.innerHTML = "R$" + price;
     }
   </script>
 
