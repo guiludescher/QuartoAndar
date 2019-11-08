@@ -870,6 +870,9 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ASE49gJdEeqHiLgm9Y9QYw" value="*"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ASE49QJdEeqHiLgm9Y9QYw"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_OcjvwAJfEeq2lOkJx27KKA" name="area" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
     <nestedClassifier xmi:type="uml:Class" xmi:id="_MIsJUAJXEeqHiLgm9Y9QYw" name="Class1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_NDjPEAJXEeqHiLgm9Y9QYw" name="Compra">
